@@ -1,0 +1,23 @@
+@font-face{
+  font-family: 'Avengeance';
+  src: url('../assets/fonts/AVENGEANCE\ HEROIC\ AVENGER\.ttf') format('truetype');
+  font-weight: normal;
+  font-size: normal;
+}
+
+body{
+  width: 80vw;
+  margin: auto;
+  margin-top: 10vh;
+  font-family: 'Avengeance';
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 1.8em;
+  font-weight: 550;
+}
+h2{
+  font-size: 0.8em;
+}
+
