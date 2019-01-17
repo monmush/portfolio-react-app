@@ -8,7 +8,7 @@
 body{
   width: 80vw;
   margin: auto;
-  margin-top: 10vh;
+  margin-top: 7vh;
   font-family: 'Avengeance';
   box-sizing: border-box;
 }
@@ -20,4 +20,16 @@ h1{
 h2{
   font-size: 0.8em;
 }
+
+.Background{
+  background-image: url('../assets/images/About.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  padding: 5vw;
+  color: white;
+}
+
 
