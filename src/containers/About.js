@@ -30,7 +30,7 @@ class About extends Component{
        
 
             <div className="Background">
-                <h1>This is about page!</h1>
+                <h1 className="Heading">About me</h1>
                 <WhenInView>
                     {({isInView}) => 
                         <div>

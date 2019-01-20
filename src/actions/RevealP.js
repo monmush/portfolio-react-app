@@ -2,6 +2,7 @@ import styled, {css} from 'styled-components'
 
 export const RevealL = styled.p`
     position: relative;
+    color: #C93C3C;
     &:after {
         content:'';
         position: absolute;

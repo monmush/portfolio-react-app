@@ -22,7 +22,7 @@ h2{
 }
 
 .Background{
-  background-image: url('../assets/images/About.jpeg');
+  background-image: url('../assets/images/About.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -38,5 +38,12 @@ p{
   line-height: 1.1em;
   font-size: 1.1em;
   margin: 1em;
-  color: blue;
+  color: white;
+  font-weight: 600;
+}
+
+.Heading{
+  text-align: right;
+  color: #FCFEA9;
+  font-size: 2.6em;
 }
