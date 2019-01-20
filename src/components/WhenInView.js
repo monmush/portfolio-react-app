@@ -9,8 +9,8 @@ export default class WhenInView extends Component {
       }
       this.onEnter = this.onEnter.bind(this);
     }
-    onEnter({previousPosition}){
-        if (previousPosition === Waypoint.below){
+    onEnter({currentPosition}){
+        if (currentPosition === Waypoint.inside){
             this.setState({isInView:true})
         }
     }

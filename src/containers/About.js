@@ -1,22 +1,50 @@
 import React,{Component} from 'react';
 import '../style/Main.scss';
-import {RevealP} from '../actions/RevealP';
+import {RevealL,
+        RevealR} 
+from '../actions/RevealP';
 import WhenInView from '../components/WhenInView';
 
+
 class About extends Component{
+    constructor(props){
+        super(props);
+        this.state = {
+            isClicked: true,
+            display: 'hidden',
+            visibility: 'block'
+        }
+    }
+    
+    clickedHandler = () => {
+        this.setState({display:'visible'})
+        this.setState({isClicked: false})
+        
+        console.log(this.state.isClicked);
+    }
     render(){
+        const styleDiv = {
+            visibility: this.state.display
+        }   
         return(
+       
+
             <div className="Background">
                 <h1>This is about page!</h1>
                 <WhenInView>
                     {({isInView}) => 
                         <div>
-                        <RevealP hide={!isInView}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</RevealP>
-                        <RevealP hide={!isInView}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</RevealP>
-                        <RevealP hide={!isInView}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</RevealP>
-                        </div> 
+                        <RevealR hide={!isInView}>Aute ea aliquip consectetur esse eu laborum culpa minim ipsum. Ad esse proident consectetur tempor ullamco id aute irure adipisicing culpa. Nostrud mollit mollit laborum eu anim non.</RevealR>
+                        <RevealL hide={!isInView}>Aute ea aliquip consectetur esse eu laborum culpa minim ipsum. Ad esse proident consectetur tempor ullamco id aute irure adipisicing culpa. Nostrud mollit mollit laborum eu anim non.</RevealL>
+                        
+                        
+                        </div>
                     }
                 </WhenInView>
+                <button onClick={this.clickedHandler}>Click me</button>
+                <RevealL style={styleDiv} hide={this.state.isClicked}>
+                    Deserunt deserunt
+                </RevealL>
                 
             </div>
         )
