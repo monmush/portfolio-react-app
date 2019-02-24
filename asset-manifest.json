@@ -1,17 +1,17 @@
 {
   "main.css": "/portfolio-react-app/static/css/main.a2abeedc.chunk.css",
-  "main.js": "/portfolio-react-app/static/js/main.f740977f.chunk.js",
-  "main.js.map": "/portfolio-react-app/static/js/main.f740977f.chunk.js.map",
+  "main.js": "/portfolio-react-app/static/js/main.3eb13b26.chunk.js",
+  "main.js.map": "/portfolio-react-app/static/js/main.3eb13b26.chunk.js.map",
   "static/css/1.581ba1ee.chunk.css": "/portfolio-react-app/static/css/1.581ba1ee.chunk.css",
   "static/js/1.bb060588.chunk.js": "/portfolio-react-app/static/js/1.bb060588.chunk.js",
   "static/js/1.bb060588.chunk.js.map": "/portfolio-react-app/static/js/1.bb060588.chunk.js.map",
   "runtime~main.js": "/portfolio-react-app/static/js/runtime~main.82922a53.js",
   "runtime~main.js.map": "/portfolio-react-app/static/js/runtime~main.82922a53.js.map",
   "static/media/Main.scss": "/portfolio-react-app/static/media/Home.4ecb0c6e.jpeg",
-  "static/media/index.css": "/portfolio-react-app/static/media/space-mono-latin-700italic.5ec6d177.woff2",
+  "static/media/index.css": "/portfolio-react-app/static/media/space-mono-latin-700italic.dfcae625.woff",
   "static/css/main.a2abeedc.chunk.css.map": "/portfolio-react-app/static/css/main.a2abeedc.chunk.css.map",
   "static/css/1.581ba1ee.chunk.css.map": "/portfolio-react-app/static/css/1.581ba1ee.chunk.css.map",
   "index.html": "/portfolio-react-app/index.html",
-  "precache-manifest.8b527135d4ca7a122cab90bd24102b87.js": "/portfolio-react-app/precache-manifest.8b527135d4ca7a122cab90bd24102b87.js",
+  "precache-manifest.3ae656c0919f10eb8858ddd509da15c6.js": "/portfolio-react-app/precache-manifest.3ae656c0919f10eb8858ddd509da15c6.js",
   "service-worker.js": "/portfolio-react-app/service-worker.js"
 }
