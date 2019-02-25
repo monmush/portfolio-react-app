@@ -34,9 +34,23 @@ class About extends Component{
                 <WhenInView>
                     {({isInView}) => 
                         <div>
-                        <RevealR hide={!isInView}>Aute ea aliquip consectetur esse eu laborum culpa minim ipsum. Ad esse proident consectetur tempor ullamco id aute irure adipisicing culpa. Nostrud mollit mollit laborum eu anim non.</RevealR>
-                        <RevealL hide={!isInView}>Aute ea aliquip consectetur esse eu laborum culpa minim ipsum. Ad esse proident consectetur tempor ullamco id aute irure adipisicing culpa. Nostrud mollit mollit laborum eu anim non.</RevealL>
-                        
+                        <RevealR hide={!isInView}>
+                            Hmm, so I guess this page is all about me.
+                            As you probably know, my name is Minh. I’m a 
+                            last-year student from South-Eastern Finland UAS. </RevealR>
+                        <RevealL hide={!isInView}>Wanna know about some of my talents?</RevealL>
+                        <RevealR hide={!isInView}>
+                        I can make 600+ pieces of maki in 2 hours. Yea, 
+                        that’s true, I used to work in a sushi restaurant 
+                        and I definitely know a thing or two about sushi
+                        </RevealR>
+                        <RevealR hide={!isInView}>
+                        And guess what, my second job is at Hill Dumplings - top 
+                        10 best new restaurant in Helsinki. So mate, I can
+                        definitely treat you well with some delicious food :D 
+                        </RevealR>
+                        <RevealR hide={!isInView}>
+                        </RevealR>
                         
                         </div>
                     }

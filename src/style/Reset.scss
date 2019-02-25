@@ -30,8 +30,21 @@ q {
     content: '';
     content: none; } }
 
+
 a{
-  text-decoration: none;
+    color: black;
+    position: relative;
+}
+a::after{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom:0;
+    z-index: -1;
+    width:100%;
+    background-color: black;
+    height:15%;
+    transition: height .2s, background-color .1s;
 }
 
 table {
