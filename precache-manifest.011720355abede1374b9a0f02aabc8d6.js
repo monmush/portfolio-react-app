@@ -44,12 +44,12 @@ self.__precacheManifest = [
     "url": "/portfolio-react-app/static/media/space-mono-latin-400.478be536.woff"
   },
   {
-    "revision": "6f0434667fae13084dd77a10c9099ff8",
-    "url": "/portfolio-react-app/static/media/space-mono-latin-400italic.6f043466.woff2"
+    "revision": "904f140a0d640bdbf361c42135b98a80",
+    "url": "/portfolio-react-app/static/media/space-mono-latin-400italic.904f140a.woff"
   },
   {
-    "revision": "17706b332de51a4c0dae838259750549",
-    "url": "/portfolio-react-app/static/media/space-mono-latin-700.17706b33.woff"
+    "revision": "6f0434667fae13084dd77a10c9099ff8",
+    "url": "/portfolio-react-app/static/media/space-mono-latin-400italic.6f043466.woff2"
   },
   {
     "revision": "5ec6d1770ee32ed03cbd793416397904",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/portfolio-react-app/static/media/space-mono-latin-700italic.dfcae625.woff"
   },
   {
-    "revision": "904f140a0d640bdbf361c42135b98a80",
-    "url": "/portfolio-react-app/static/media/space-mono-latin-400italic.904f140a.woff"
+    "revision": "17706b332de51a4c0dae838259750549",
+    "url": "/portfolio-react-app/static/media/space-mono-latin-700.17706b33.woff"
   },
   {
     "revision": "db1f41e41d4f832a8ff260a317ad4a3e",
