@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f740977fd095a96365c4",
-    "url": "/portfolio-react-app/static/css/main.a2abeedc.chunk.css"
+    "revision": "0d0ebe81e5ccf71ef1d4",
+    "url": "/portfolio-react-app/static/css/main.3609791d.chunk.css"
   },
   {
-    "revision": "f740977fd095a96365c4",
-    "url": "/portfolio-react-app/static/js/main.f740977f.chunk.js"
+    "revision": "0d0ebe81e5ccf71ef1d4",
+    "url": "/portfolio-react-app/static/js/main.0d0ebe81.chunk.js"
   },
   {
     "revision": "bb060588f96b81a87069",
@@ -44,16 +44,8 @@ self.__precacheManifest = [
     "url": "/portfolio-react-app/static/media/space-mono-latin-400.478be536.woff"
   },
   {
-    "revision": "17706b332de51a4c0dae838259750549",
-    "url": "/portfolio-react-app/static/media/space-mono-latin-700.17706b33.woff"
-  },
-  {
     "revision": "904f140a0d640bdbf361c42135b98a80",
     "url": "/portfolio-react-app/static/media/space-mono-latin-400italic.904f140a.woff"
-  },
-  {
-    "revision": "5ec6d1770ee32ed03cbd793416397904",
-    "url": "/portfolio-react-app/static/media/space-mono-latin-700italic.5ec6d177.woff2"
   },
   {
     "revision": "6f0434667fae13084dd77a10c9099ff8",
@@ -64,7 +56,15 @@ self.__precacheManifest = [
     "url": "/portfolio-react-app/static/media/space-mono-latin-700italic.dfcae625.woff"
   },
   {
-    "revision": "c787d9b8bebe264fde059af8c1301ae6",
+    "revision": "5ec6d1770ee32ed03cbd793416397904",
+    "url": "/portfolio-react-app/static/media/space-mono-latin-700italic.5ec6d177.woff2"
+  },
+  {
+    "revision": "17706b332de51a4c0dae838259750549",
+    "url": "/portfolio-react-app/static/media/space-mono-latin-700.17706b33.woff"
+  },
+  {
+    "revision": "db1f41e41d4f832a8ff260a317ad4a3e",
     "url": "/portfolio-react-app/index.html"
   }
 ];
