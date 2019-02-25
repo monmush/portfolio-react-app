@@ -8,10 +8,10 @@
   "runtime~main.js": "/portfolio-react-app/static/js/runtime~main.82922a53.js",
   "runtime~main.js.map": "/portfolio-react-app/static/js/runtime~main.82922a53.js.map",
   "static/media/Main.scss": "/portfolio-react-app/static/media/Home.4ecb0c6e.jpeg",
-  "static/media/index.css": "/portfolio-react-app/static/media/space-mono-latin-700italic.dfcae625.woff",
+  "static/media/index.css": "/portfolio-react-app/static/media/space-mono-latin-400italic.904f140a.woff",
   "static/css/main.3609791d.chunk.css.map": "/portfolio-react-app/static/css/main.3609791d.chunk.css.map",
   "static/css/1.581ba1ee.chunk.css.map": "/portfolio-react-app/static/css/1.581ba1ee.chunk.css.map",
   "index.html": "/portfolio-react-app/index.html",
-  "precache-manifest.e4a4a6f58ae84464dbaadd0aecc7a384.js": "/portfolio-react-app/precache-manifest.e4a4a6f58ae84464dbaadd0aecc7a384.js",
+  "precache-manifest.cbfb6def9c332821f0af456062d91090.js": "/portfolio-react-app/precache-manifest.cbfb6def9c332821f0af456062d91090.js",
   "service-worker.js": "/portfolio-react-app/service-worker.js"
 }
