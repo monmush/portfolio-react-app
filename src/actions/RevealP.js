@@ -2,7 +2,11 @@ import styled, {css} from 'styled-components'
 
 export const RevealL = styled.p`
     position: relative;
-    color: #C93C3C;
+    background-color: #EA6A6A;
+    text-align: left;
+    color: black;
+    width: 65%;
+    padding: 2%;
     &:after {
         content:'';
         position: absolute;
@@ -24,6 +28,12 @@ export const RevealL = styled.p`
 `;
 export const RevealR = styled.p`
     position: relative;
+    text-align: right;
+    background-color: #F5E9E9;
+    color: blue;
+    width: 55%;
+    left: 35%;
+    padding: 2%;
     &:after {
         content:'';
         position: absolute;

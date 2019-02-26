@@ -7,7 +7,7 @@ const Nav = ()=> {
         <div className="Nav">
          <ul> 
              <li><Link className="Link" to="/">Home</Link></li>
-             <li><Link className="Link" to="/about">About</Link></li>
+             <li><Link className="Link" to="/about">About me</Link></li>
              <li><a target="_blank" href="https://novoresume.com/a/monteampdp.1">My resume</a></li>
          </ul>
         </div>
