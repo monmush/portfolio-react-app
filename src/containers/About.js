@@ -12,15 +12,13 @@ class About extends Component{
         this.state = {
             isClicked: true,
             display: 'hidden',
-            visibility: 'block'
+            
         }
     }
     
     clickedHandler = () => {
         this.setState({display:'visible'})
         this.setState({isClicked: false})
-        
-        console.log(this.state.isClicked);
     }
     render(){
         const styleDiv = {
@@ -45,12 +43,15 @@ class About extends Component{
                         <RevealL hide={!isInView} style={styleDiv} hide={this.state.isClicked}>
                         Hm, this might surprise you, but I used to be an amateur rapper in Vietnam with more than 1 million plays in total on SoundCloud. Here is one of my favorite track 
                         </RevealL>
+                        <RevealL hide={!isInView} style={styleDiv} hide={this.state.isClicked}>
+                        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/298198742&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                        </RevealL>
 
-                        <RevealR hide={!isInView} onClick={this.clickedHandler} >
+                        <RevealR hide={!isInView} hide={this.state.isClicked} onClick={this.clickedHandler} >
                         Awesome, What about sports? Do you play any?
                         </RevealR>
 
-                        <RevealL hide={!isInView}>
+                        <RevealL hide={!isInView} style={styleDiv} >
                         I am a fan of Football since I was in grade 3. My favorite club is Chelsea FC.  Throughout secondary and high school, I played several unprofessional football tournaments. And one of them is the XAMK tournament in Mikkeli
                         </RevealL>
 
