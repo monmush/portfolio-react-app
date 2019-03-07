@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import Waypoint from 'react-waypoint'
+import { Waypoint } from 'react-waypoint';
 
 export default class WhenInView extends Component {
     constructor(props){
