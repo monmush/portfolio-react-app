@@ -7,14 +7,10 @@
     height: auto;
 }
 
-.Questions::after{
-    content: ' ';
-    color: rgba(36,123,160,1);
+.Gif{
+    opacity: 0.25;
+    width: 15%;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    -webkit-transition: 1s width;
-    transition: 1s width;
+    right: 50px;
+    top: -5px;
 }

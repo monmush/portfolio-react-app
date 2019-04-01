@@ -34,6 +34,11 @@ export const RevealR = styled.p`
     width: 55%;
     left: 35%;
     padding: 2%;
+    
+    &:hover{
+        cursor: pointer;
+    }
+
     &:after {
         content:'';
         position: absolute;
@@ -52,4 +57,7 @@ export const RevealR = styled.p`
         transform: rotateY(0deg);
     }
 `}
+    &:visited{
+        color: purple;
+    }
 `;

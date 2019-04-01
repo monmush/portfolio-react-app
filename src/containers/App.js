@@ -5,6 +5,7 @@ import Home from './Home';
 import Nav from '../components/Nav';
 import '../style/Main.scss';
 
+
 class App extends Component{
     render(){
         return(

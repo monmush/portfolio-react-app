@@ -5,6 +5,7 @@ import App from './containers/App'
 import * as serviceWorker from './serviceWorker';
 import 'react-router-dom';
 import 'typeface-space-mono';
+import 'react-router';
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
