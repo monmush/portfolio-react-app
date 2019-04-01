@@ -8,6 +8,7 @@ const Nav = ()=> {
          <ul> 
              <li><Link className="Link" to="/">Home</Link></li>
              <li><Link className="Link" to="/about">About me</Link></li>
+             <li><Link className="Link" to="/skills">Skills</Link></li>
              <li><a target="_blank" rel="noopener noreferrer" href="https://novoresume.com/a/monteampdp.1">My resume</a></li>
          </ul>
         </div>

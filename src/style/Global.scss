@@ -47,3 +47,38 @@ p{
   color: black;
   font-size: 2.6em;
 }
+
+.Social i{
+  margin: .2em;
+}
+.Social{
+  font-size: 2.5em;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left:5vh;
+  top: 50vh;
+  color: black;
+}
+
+a{
+  color: black;
+  position: relative;
+}
+// a::after{
+//   content: '';
+//   position: absolute;
+//   left:0;
+//   bottom:0;
+//   z-index: -1;
+//   width:100%;
+//   background-color: black;
+//   height:15%;
+//   transition: height .2s, background-color .1s;
+// }
+
+a:hover::after{
+  height: 100%;
+  background-color: #E25358;
+}
+
