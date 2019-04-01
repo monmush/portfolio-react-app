@@ -84,10 +84,15 @@ class conversation extends Component{
                                     <RevealL hide={!isInView} >
                                     That's an interesting question. To be honest, I don't learn to program just to get to Google, Facebook or some tech giant company. I want to learn programming to build something meaningful that help real people with real problems. It's just that simple :D 
                                     </RevealL>
+                                    <div className="Space">
+
+                                    </div>
                                 </div>
                             </div>
+                            
                         }
                     </WhenInView>
+        
         )
 
     }

@@ -13,6 +13,7 @@ class About extends Component{
                 <h1 className="Heading">About me</h1>
                 <Conversation/>
             </div>
+            
             </div>
             
         )
