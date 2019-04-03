@@ -20,6 +20,7 @@ export default class WhenInView extends Component {
         <div>
           <Waypoint onEnter={this.onEnter}></Waypoint>
           {this.props.children({ isInView: this.state.isInView})}
+
         </div>
       )
     }

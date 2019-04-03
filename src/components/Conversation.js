@@ -13,8 +13,8 @@ class conversation extends Component{
         const nameOfClasses = "Group " + n;
         const nameOfGifs = "Gif " + n;
         document.getElementsByClassName(nameOfClasses)[0].style.visibility = "visible";
-        document.getElementsByClassName(nameOfClasses)[0].style.color = "magenta";  
         document.getElementsByClassName(nameOfGifs)[0].style.visibility = "hidden";  
+        
     }
     render(){
         return(
