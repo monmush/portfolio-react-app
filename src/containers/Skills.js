@@ -14,16 +14,8 @@ const Skills = () => {
         <div class = "Skills">
             <div class="Background">
             <h1 className="Heading">Skills</h1>
-            <h1>my philosophy</h1>
-            <div className="Philosophy Flex">
-                <div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                </div>
-                <div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                </div>
-            </div>
-            <h1>technical Skills</h1>
+            
+            <h1>technical skills</h1>
             
             <Slider {...settings} className="Slider">
                 <div>

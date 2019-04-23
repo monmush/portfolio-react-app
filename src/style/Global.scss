@@ -67,6 +67,7 @@ p{
 a{
   color: black;
   position: relative;
+  text-decoration: none;
 }
 
 
@@ -79,4 +80,51 @@ a:hover::after{
   content: "";
   height: 25vh;
   
+}
+
+.Nav{
+
+  background-color: white;
+  display: block;
+  position: fixed;
+  top:2vh;
+  left:10vw;
+  font-size: 1.5em;
+  text-transform: lowercase;
+  z-index: 99;
+  ul{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 0.3em;
+      margin:0;
+  }
+  .Link{
+      color: black;
+      position: relative;
+  }
+  .Link::after{
+      content: '';
+      position: absolute;
+      left:0;
+      bottom:0;
+      z-index: -1;
+      width:100%;
+      background-color: black;
+      height:15%;
+      transition: height .2s, background-color .1s;
+  }
+
+  .Link:hover::after{
+      height: 110%;
+      background-color: #E25358;
+  }
+
+  li{
+      padding-left: 1%;
+      padding-right: 1%;
+      margin-right: 1rem;
+      margin-left: 1rem;
+  }
 }

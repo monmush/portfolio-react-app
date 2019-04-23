@@ -1,6 +1,31 @@
 @import './Reset.scss';
 @import './Global.scss';
-@import './App.scss';
 @import './Home.scss';
 @import './About.scss';
 @import './Skills.scss';
+
+@media (min-width: 426px) and (max-width: 768px){
+    
+}
+
+@media (min-width: 0) and (max-width: 425px){
+    //social icons
+    .Social{
+        display: none;
+    }
+
+    // typewritter
+    .line-1{
+        font-size: .3em;
+    }
+    @keyframes typewriter{
+        from{width: 0;}
+        to{width: 17em;}
+    }
+    .Nav{
+        font-size: 1.2em;
+    }
+    body{
+        width: 100%;
+    }
+}

@@ -26,6 +26,9 @@ export const RevealL = styled.p`
         transform: rotateY(0deg);
     }
 `}
+@media (min-width: 0) and (max-width: 375px){
+    width: 80%;
+}
 `;
 export const RevealR = styled.p`
     position: relative;
@@ -61,5 +64,9 @@ export const RevealR = styled.p`
 `}
     &:visited{
         color: purple;
+    }
+    @media (min-width: 0) and (max-width: 375px){
+        width: 80%;
+        left: 15%;
     }
 `;
