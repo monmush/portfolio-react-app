@@ -1,7 +1,7 @@
 {
   "main.css": "/portfolio-react-app/static/css/main.537152ed.chunk.css",
-  "main.js": "/portfolio-react-app/static/js/main.5561e211.chunk.js",
-  "main.js.map": "/portfolio-react-app/static/js/main.5561e211.chunk.js.map",
+  "main.js": "/portfolio-react-app/static/js/main.10744e8d.chunk.js",
+  "main.js.map": "/portfolio-react-app/static/js/main.10744e8d.chunk.js.map",
   "static/css/1.98669086.chunk.css": "/portfolio-react-app/static/css/1.98669086.chunk.css",
   "static/js/1.27716d30.chunk.js": "/portfolio-react-app/static/js/1.27716d30.chunk.js",
   "static/js/1.27716d30.chunk.js.map": "/portfolio-react-app/static/js/1.27716d30.chunk.js.map",
@@ -11,10 +11,10 @@
   "static/media/Main.scss": "/portfolio-react-app/static/media/Home.b9718a82.jpeg",
   "static/media/football.jpg": "/portfolio-react-app/static/media/football.1d1a479d.jpg",
   "static/media/dumpling.jpg": "/portfolio-react-app/static/media/dumpling.172bdfa3.jpg",
-  "static/media/index.css": "/portfolio-react-app/static/media/space-mono-latin-700italic.dfcae625.woff",
+  "static/media/index.css": "/portfolio-react-app/static/media/space-mono-latin-700italic.5ec6d177.woff2",
   "static/css/main.537152ed.chunk.css.map": "/portfolio-react-app/static/css/main.537152ed.chunk.css.map",
   "static/css/1.98669086.chunk.css.map": "/portfolio-react-app/static/css/1.98669086.chunk.css.map",
   "index.html": "/portfolio-react-app/index.html",
-  "precache-manifest.804af0db49faaa46e60744fe8a06fbd6.js": "/portfolio-react-app/precache-manifest.804af0db49faaa46e60744fe8a06fbd6.js",
+  "precache-manifest.2b2c61667cbf12895a82157ed77715f3.js": "/portfolio-react-app/precache-manifest.2b2c61667cbf12895a82157ed77715f3.js",
   "service-worker.js": "/portfolio-react-app/service-worker.js"
 }
