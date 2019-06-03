@@ -1,5 +1,5 @@
 ## Demo
-(https://monmush.github.io/portfolio-react-app/) 
+[Demo](https://monmush.github.io/portfolio-react-app/) 
 
 ## Idea
 This is my official portfolio website created by ReactJS. In the project, I applied several React main concepts such as: State and Lifecycles, Handling Events, Conditional Rendering, Lists and Keys. I experienced both styled-component and sass-loader during styling the website. 
