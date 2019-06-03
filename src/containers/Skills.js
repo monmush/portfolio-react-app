@@ -29,7 +29,7 @@ const Skills = () => {
                 <div>
                     <h2>Back-end Technologies</h2>
                     <span><i class="fab fa-node"></i></span>
-                    <span><i class="fab fa-php"></i></span>
+                    
                 </div>
                 <div className="Flex">
                     <div>
@@ -44,6 +44,8 @@ const Skills = () => {
                 </div>
             
             </Slider>
+            <p>Want to know about my skills in details? Here is the link to my Roadmap</p>
+            <a  id="Roadmap"href="https://my.visme.co/projects/n063xppm-my-roadmap-to-be-front-end-developer" target="blank">my roadmap</a>
             </div>
             
         </div>
